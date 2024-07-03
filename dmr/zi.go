@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/nfjBill/gorm-driver-dm/dmr/util"
+	"github.com/csoy/gorm-driver-dm/dmr/util"
 )
 
 var G2DB g2db
