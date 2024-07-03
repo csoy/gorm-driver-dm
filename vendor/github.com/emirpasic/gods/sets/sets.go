@@ -16,10 +16,14 @@ type Set interface {
 	Add(elements ...interface{})
 	Remove(elements ...interface{})
 	Contains(elements ...interface{}) bool
+	// Intersection(another *Set) *Set
+	// Union(another *Set) *Set
+	// Difference(another *Set) *Set
 
 	containers.Container
 	// Empty() bool
 	// Size() int
 	// Clear()
 	// Values() []interface{}
+	// String() string
 }
